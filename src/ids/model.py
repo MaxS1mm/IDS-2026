@@ -5,8 +5,8 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.metrics import classification_report
 from catboost import CatBoostClassifier
 
-train_path = "./KDD_Data/KDDTrain+_20Percent.txt"
-test_path = "./KDD_Data/KDDTest-21.txt"
+# train_path = "./KDD_Data/KDDTrain+_20Percent.txt"
+# test_path = "./KDD_Data/KDDTest-21.txt"
 
 columns = [f"feature_{i}" for i in range(1, 43)] + ["label"]
 train_df = pd.read_csv(train_path, header=None, names=columns)

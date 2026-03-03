@@ -1,4 +1,13 @@
 .DS_store
-venv/
+.venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
+*.db
+
+data/rules.db
+
+*.log
+.vscode/
+*.idea/
